@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>How to use Slick Slider for your website</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header id="wrapper">
+		<div class="menu-area">
+			<div class="logo">
+				<h2>Slick Slider</h2>
+			</div>
+			<div class="menu-item">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Portfolio</a>
+					</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="thing" id="wrapper">
+		<div><img alt="slider image" src="https://i.postimg.cc/fbppLHvf/1.jpg"></div>
+		<div><img alt="slider image" src="https://i.postimg.cc/Vk5KCqvG/2.jpg"></div>
+		<div><img alt="slider image" src="https://i.postimg.cc/QtDg01Nr/3.jpg"></div>
+	</div>
+    <div class="thing" id="wrapper">
+		<div><img alt="slider image" src="https://i.postimg.cc/fbppLHvf/1.jpg"></div>
+		<div><img alt="slider image" src="https://i.postimg.cc/Vk5KCqvG/2.jpg"></div>
+		<div><img alt="slider image" src="https://i.postimg.cc/QtDg01Nr/3.jpg"></div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js">
+	</script> 
+	<script>
+	       $(document).ready(function(){
+	          $('.thing').slick({
+	              dots: true,
+	              arrows: false,
+	              autoplay: true,
+	              autoplaySpeed: 2000
+	          }) 
+              
+	       });
+	</script>
+</body>
+</html>

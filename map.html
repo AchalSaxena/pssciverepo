@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div id="map" style="height:500px;">
+
+</div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNVsBmGWlyxBz1RHrnmDJ_K_0ntMjsb-0&amp;callback=initMap&amp;libraries=&amp;v=weekly" async=""></script>
+    <script>
+
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: 27.2408375, lng: 77.9995164 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+                title: 'Attrix Technologies',
+            });
+        }
+
+    
+    </script>
+</body>
+</html>
