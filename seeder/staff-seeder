@@ -1,0 +1,663 @@
+<?php
+ 
+namespace Database\Seeders;
+ 
+use App\Models\Staff;
+use Illuminate\Database\Seeder;
+ 
+class StaffSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 15',
+            'subject' => 'Civil Engineering',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Civil Engineering',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 3,
+            'department_id' => 10,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Home Science (Food & Nutrition)',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Home Science (Food & Nutrition)',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 4,
+            'department_id' => 5,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Accountancy',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accountancy',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 5,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Plant Protection',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Plant Protection',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 6,
+            'department_id' => 1,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Horticulture and Plant Protection',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Horticulture and Plant Protection',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 7,
+            'department_id' => 1,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Rural Technology',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Rural Technology',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 8,
+            'department_id' => 3,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Bio-Chemistry',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Bio-Chemistry',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 9,
+            'department_id' => 4,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Enterpreneurship Development',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Enterpreneurship Development',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 10,
+            'department_id' => 6,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 13',
+            'subject' => 'Distributive Education',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Distributive Education',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 11,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Computer Science/Engineering',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Computer Science/Engineering',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 12,
+            'department_id' => 3,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 14',
+            'subject' => 'Animal Science',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Animal Science',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 13,
+            'department_id' => 1,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 13',
+            'subject' => 'Chemistry',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Chemistry',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 14,
+            'department_id' => 6,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 15,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 16,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 17,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 18,
+            'department_id' => 2,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 19,
+            'department_id' => 2,
+        ]);
+ Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Home Science (Food & Nutrition)',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Home Science (Food & Nutrition)',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 20,
+            'department_id' => 5,
+        ]);
+  Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Computer Operator Gr. II',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Computer Operator Gr. II',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 21,
+            'department_id' => 3,
+        ]);
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Accountancy',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accountancy',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 22,
+            'department_id' => 2,
+        ]);
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Administration',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Administration',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 23,
+            'department_id' => 7,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Accounts',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accounts',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 24,
+            'department_id' => 8,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Academic Regular',
+            'level' => 'Level 10',
+            'subject' => 'Administration',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Administration',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 25,
+            'department_id' => 7,
+        ]);
+ 
+ 
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'PS to JD',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'PS to JD',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 26,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'PA',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'PA',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 27,
+            'department_id' => 11,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Administration',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Administration',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 28,
+            'department_id' => 1,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Department of Engineering and Technology',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Department of Engineering and Technology',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 29,
+            'department_id' => 3,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'PPMC',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'PPMC',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 30,
+            'department_id' => 12,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'CDEC',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'CDEC',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 31,
+            'department_id' => 12,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Accounts',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accounts',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 32,
+            'department_id' => 8,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Establishment',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Establishment',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 33,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'DHSHM',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'DHSHM',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 34,
+            'department_id' => 5,
+        ]);
+ 
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'DHPS',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'DHPS',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 35,
+            'department_id' => 4,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Department of Business and Commerce',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Department of Business and Commerce',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 36,
+            'department_id' => 2,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Establishment',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Establishment',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 37,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Accounts',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accounts',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 38,
+            'department_id' => 8,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Accounts',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Accounts',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 39,
+            'department_id' => 8,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Reception',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Reception',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 40,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Store Section',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Store Section',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 41,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'CNWS',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'CNWS',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 42,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Library',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Library',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 43,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Establishment',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Establishment',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 44,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'JD Office',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'JD Office',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 45,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'CNWS',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'CNWS',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 46,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'JD Office',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'JD Office',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 47,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'CNWS',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'CNWS',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 48,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'JD Office',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'JD Office',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 49,
+            'department_id' => 10,
+        ]);
+        Staff::create([
+            'designation_category' => 'Staff Regular',
+            'level' => 'Level 12',
+            'subject' => 'Establishment',
+            'date_of_joining_ncert' => '1990-01-01',
+            'date_of_joining_psscive' => '2020-01-01',
+            'date_of_promotion' => '2021-01-01',
+            'specialization' => 'Establishment',
+            'academic_experience' => 0,
+            'industry_experience' => 0,
+            'user_id' => 50,
+            'department_id' => 10,
+        ]);
+    }
+}

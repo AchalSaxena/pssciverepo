@@ -1,0 +1,375 @@
+<?php
+
+namespace Database\Seeders\Auth;
+
+use App\Models\User;
+use Database\Seeders\Traits\DisableForeignKeys;
+use Illuminate\Database\Seeder;
+
+/**
+ * Class UserTableSeeder.
+ */
+class UserSeeder extends Seeder
+{
+    use DisableForeignKeys;
+
+    /**
+     * Run the database seed.
+     */
+    public function run()
+    {
+        $this->disableForeignKeys();
+
+        // Add the master administrator, user id of 1
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'first_name' => 'Super',
+            'last_name' => 'Admin',
+            'designation' => 'Admin',
+            'email' => 'superadmin@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9045533427',
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+
+//user id of 2
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'first_name' => 'PSS',
+            'last_name' => 'Admin',
+            'designation' => 'Admin',
+            'email' => 'admin@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9425018802',
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+
+       // user id of 3
+        //Seeding Staff Members
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Rajesh P.',
+            'last_name' => 'Khambayat',
+            'designation' => 'Joint Director',
+            'email' => 'jd@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]);
+
+
+
+
+//user id of 4
+
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Mridula',
+            'last_name' => 'Saxena',
+            'designation' => 'Professor',
+            'email' => 'm.saxena@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); // user id of 5
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'R. K.',
+            'last_name' => 'Shukla',
+            'designation' => 'Professor',
+            'email' => 'r.shukla@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); // user id of 6
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'V. S.',
+            'last_name' => 'Mehrotra',
+            'designation' => 'Professor',
+            'email' => 'v.mehrotra@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 7
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Rajiv Kumar',
+            'last_name' => 'Pathak',
+            'designation' => 'Professor',
+            'email' => 'r.pathak@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 8
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Saurabh',
+            'last_name' => 'Prakash',
+            'designation' => 'Professor',
+            'email' => 's.prakash@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 9
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Abhijit',
+            'last_name' => 'Nayak',
+            'designation' => 'Professor',
+            'email' => 'a.nayak@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 10
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Vipin Kumar',
+            'last_name' => 'Jain',
+            'designation' => 'Professor',
+            'email' => 'v.jain@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 11
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'P.',
+            'last_name' => 'Veeraiah',
+            'designation' => 'Professor',
+            'email' => 'p.veeraiah@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 12
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Deepak D.',
+            'last_name' => 'Shudhalwar',
+            'designation' => 'Professor',
+            'email' => 'd.shudhalwar@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 13
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'Kuldeep',
+            'last_name' => 'Singh',
+            'designation' => 'Professor',
+            'email' => 'k.singh@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]); //user id of 14
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Dr.',
+            'first_name' => 'R.',
+            'last_name' => 'Ravichandran',
+            'designation' => 'Professor',
+            'email' => 'r.ravichandran@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+
+        ]);
+        //user id of 15
+        User::create([
+            'type' => User::TYPE_USER,
+            'salutation' => 'Dr.',
+            'first_name' => 'Teena',
+            'last_name' => 'Mishra',
+            'designation' => 'Consultant',
+            'email' => 'teenamishra959@gmail.com',
+            'password' => 'cOdE5581',
+            'mobile' => null,
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 16
+        User::create([
+            'type' => User::TYPE_USER,
+            'salutation' => 'Mr.',
+            'first_name' => 'Vivek',
+            'last_name' => null,
+            'designation' => 'Consultant',
+            'email' => 'vivekmishra123@gmail.com',
+            'password' => 'cOdE5581',
+            'mobile' => null,
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 17
+        User::create([
+            'type' => User::TYPE_USER,
+            'salutation' => 'Smt.',
+            'first_name' => 'Sunita',
+            'last_name' => 'Koli',
+            'designation' => 'Computer Operator',
+            'email' => 'sunjkoli@gmail.com',
+            'password' => 'cOdE5581',
+            'mobile' => null,
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 18
+        User::create([
+            'type' => User::TYPE_USER,
+            'salutation' => 'Mr.',
+            'first_name' => 'Pankaj',
+            'last_name' => 'Raikwar',
+            'designation' => 'Lab Assistant',
+            'email' => 'raikwar0001@gmail.com',
+            'password' => 'cOdE5581',
+            'mobile' => null,
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 19
+        User::create([
+            'type' => User::TYPE_USER,
+            'salutation' => 'Mr.',
+            'first_name' => 'Harendra Singh',
+            'last_name' => 'Rajpoot',
+            'designation' => 'Data Entry Operator',
+            'email' => 'hsrajput.psscive@gmail.com',
+            'password' => 'cOdE5581',
+            'mobile' => null,
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 20
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Prof.',
+            'first_name' => 'Pinki',
+            'last_name' => 'Khanna',
+            'designation' => 'Professor',
+            'email' => 'p.khanna@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 21
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Mr.',
+            'first_name' => 'Vinod',
+            'last_name' => 'Soni',
+            'designation' => 'Professor',
+            'email' => 'v.soni@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 22
+        User::create([
+            'type' => User::TYPE_ADMIN,
+            'salutation' => 'Prof.',
+            'first_name' => 'A.',
+            'last_name' => 'Palanivel',
+            'designation' => 'Professor',
+            'email' => 'a.palanivel@psscive.ac.in',
+            'password' => 'cOdE5581',
+            'mobile' => '9123456780',
+            'email_verified_at' => now(),
+            'active' => true,
+        ]);
+        //user id of 23
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Phool Chand', 'last_name' =>'Meena', 'designation' =>'Under Secretary', 'email' =>'p.meena@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9100000000', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 24
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Annie', 'last_name' =>'Philip', 'designation' =>'Section Officer', 'email' =>'a.philip@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9100000000', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 25
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Surekha', 'last_name' =>'Kamble', 'designation' =>'Section Officer', 'email' =>'s.kamble@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9406543789', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 26
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Praveen', 'last_name' =>'Katolkar', 'designation' =>'PS to JD', 'email' =>'p.katolkar@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'7987150602', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 27
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Manisha', 'last_name' =>'Katolkar', 'designation' =>'PA', 'email' =>'mp.katolkar@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9407278737', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 28
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Durgesh', 'last_name' =>'Satankar', 'designation' =>'Computer Operator Gr. II', 'email' =>'d.satankar@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9826521553', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 29
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Vinod Kumar', 'last_name' =>'Soni', 'designation' =>'Computer Operator Gr. II', 'email' =>'vinod.soni@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9424413801', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 30
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'J M', 'last_name' =>'Wallace', 'designation' =>'Computer Operator Gr. II', 'email' =>'jm.wallace@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9340239542', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 31
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Jeevan', 'last_name' =>'Koli', 'designation' =>'Computer Operator Gr. II', 'email' =>'jb.koli@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'7987691815', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 32
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Ram Bahadur', 'last_name' =>'Kushwaha', 'designation' =>'Jr Accountant', 'email' =>'rb.kushwaha@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9826738370', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 33
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'KLVSV C', 'last_name' =>'Rao', 'designation' =>'Computer Operator Gr. III', 'email' =>'kc.rao@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9751560878', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 34
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Akhilesh', 'last_name' =>'Kashiv', 'designation' =>'Computer Operator Gr. III', 'email' =>'a.kashiv@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9669220172', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 35
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Sangeeta', 'last_name' =>'Sortey', 'designation' =>'Computer Operator Gr. III', 'email' =>'s.sortey@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9425392964', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 36
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Sunita', 'last_name' =>'Koli', 'designation' =>'Computer Operator Gr. III', 'email' =>'s.koli@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'8109175738', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 37
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Mamta', 'last_name' =>'Varshney', 'designation' =>'UDC', 'email' =>'m.varshney@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9617789239', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 38
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Jaishree', 'last_name' =>'Nayar', 'designation' =>'UDC', 'email' =>'jayashreenair1997@gmail.com', 'password' =>'cOdE5581', 'mobile' =>'9406534356', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 39
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Rajni', 'last_name' =>'Balwani', 'designation' =>'UDC', 'email' =>'r.Balwani@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9754527285', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 40
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Mamta', 'last_name' =>'Shrivastava', 'designation' =>'Receptionist/EPBX Operator', 'email' =>'m.shrivastava@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9926884407', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 41
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Bhola', 'last_name' =>'Prasad', 'designation' =>'LDC/Storekeeper', 'email' =>'b.prasad@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9179110545', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 42
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Shyam', 'last_name' =>'Basu', 'designation' =>'LDC', 'email' =>'s.basu@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'8349365473', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 43
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Aparna', 'last_name' =>'Vyas', 'designation' =>'Library Clerk', 'email' =>'a.vyas@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9406542446', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 44
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Neel', 'last_name' =>'Kusum', 'designation' =>'LDC', 'email' =>'n.kusum@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'8285979702', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 45
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Subodh', 'last_name' =>'Kumar', 'designation' =>'LDC', 'email' =>'s.kumar@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9111803042', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 46
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Vijay', 'last_name' =>'Katole', 'designation' =>'Driver', 'email' =>'v.katole@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9424407580', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 47
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Babulal', 'last_name' =>'Malviya', 'designation' =>'Driver', 'email' =>'b.malviya@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'8109215423', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 48
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Goursunder', 'last_name' =>'Nath', 'designation' =>'MTS', 'email' =>'gs.nath@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9425377527', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 49
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'Kamlesh', 'last_name' =>'Ahirwar', 'designation' =>'MTS', 'email' =>'k.ahirwar@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' => '1234567890', 'email_verified_at' => now(), 'active' => true  ]);
+        //user id of 50
+        User::create(['type' => User::TYPE_ADMIN, 'salutation' => 'Prof.', 'first_name' =>'D', 'last_name' =>'Vimla', 'designation' =>'MTS', 'email' =>'d.vimla@psscive.ac.in', 'password' =>'cOdE5581', 'mobile' =>'9003350962', 'email_verified_at' => now(), 'active' => true  ]);
+        $this->enableForeignKeys();
+    }
+}
